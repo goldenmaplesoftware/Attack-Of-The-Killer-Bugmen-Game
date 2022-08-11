@@ -38,6 +38,7 @@ public class BugSoliderPatrol : MonoBehaviour
     private void OnDisable() ///On disable destorys the player
     {
         anim.SetBool("moving_bugSolider", false);
+ 
     }
 
     private void Update()
