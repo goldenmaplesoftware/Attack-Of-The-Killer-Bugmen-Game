@@ -9964,6 +9964,10 @@ PrefabInstance:
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 717050453}
+    - target: {fileID: 477894987186728869, guid: d74ac2966405ae948a88644f2c8007f4, type: 3}
+      propertyPath: currentClip
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 926026972922366396, guid: d74ac2966405ae948a88644f2c8007f4, type: 3}
       propertyPath: textKyroCount
       value: 
@@ -9980,6 +9984,10 @@ PrefabInstance:
       propertyPath: examineWindow
       value: 
       objectReference: {fileID: 1215147781}
+    - target: {fileID: 2182043190419974240, guid: d74ac2966405ae948a88644f2c8007f4, type: 3}
+      propertyPath: currentClip
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2507497303251903668, guid: d74ac2966405ae948a88644f2c8007f4, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -10242,11 +10250,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6195182241607029178, guid: d74ac2966405ae948a88644f2c8007f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.161
       objectReference: {fileID: 0}
     - target: {fileID: 6195182241607029178, guid: d74ac2966405ae948a88644f2c8007f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.051
       objectReference: {fileID: 0}
     - target: {fileID: 6329417558324231579, guid: d74ac2966405ae948a88644f2c8007f4, type: 3}
       propertyPath: m_RootOrder
@@ -10294,7 +10302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7685646478161126938, guid: d74ac2966405ae948a88644f2c8007f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.235
       objectReference: {fileID: 0}
     - target: {fileID: 7685646478161126938, guid: d74ac2966405ae948a88644f2c8007f4, type: 3}
       propertyPath: m_LocalPosition.y

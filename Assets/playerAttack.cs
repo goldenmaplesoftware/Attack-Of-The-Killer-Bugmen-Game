@@ -17,7 +17,7 @@ public class playerAttack : MonoBehaviour
             currentClip--;
         }
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) 
+        if (Input.GetMouseButtonDown(1))
         {
             int reloadAmount = maxClipSize - currentClip; /// how many bullets to refill clip
             reloadAmount = (currentAmmo - reloadAmount) >= 0 ? reloadAmount : currentAmmo;
