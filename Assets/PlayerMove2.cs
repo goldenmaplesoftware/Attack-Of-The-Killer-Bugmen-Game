@@ -7,6 +7,7 @@ using System;
 public class PlayerMove2 : MonoBehaviour
 {
 
+  
 
     ///NPC interaction
     private NPC NPCTalk;
@@ -79,6 +80,7 @@ public class PlayerMove2 : MonoBehaviour
 
     bool CanMove()
     {
+        Debug.Log("Commit branch test");
         bool can = true;
 
         if (FindObjectOfType<InventorySystem>().isOpen) ///If inventory is open
