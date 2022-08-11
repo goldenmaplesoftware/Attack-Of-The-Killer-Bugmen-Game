@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1891731801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157106110027434487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a34a775d4bf044ebca06122bfe08d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactType: 1
+  type: 1
+  descriptionText: 15 rounds in a box of this light weight ammunition.
+  consumeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3181061592083194293}
+        m_TargetAssemblyTypeName: Bullet_45ACP, Assembly-CSharp
+        m_MethodName: AddAmmo
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 2
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  customEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1001 &7727692367476411553
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690500038045413133, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123726290442792212, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: kimberCustom
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5123726290442792212, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: bulletInventoryToAdd
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570657004957943126, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+      propertyPath: m_Name
+      value: _45 ACP Ammo Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+--- !u!1 &157106110027434487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7570657004957943126, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+  m_PrefabInstance: {fileID: 7727692367476411553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3181061592083194293 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5123726290442792212, guid: f80f534ba571dc64f87708c6b573295e, type: 3}
+  m_PrefabInstance: {fileID: 7727692367476411553}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157106110027434487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd311c85c531ed84595b63b7bea3e57f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
